@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+    color: white;
+    font-family: cursive;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: grey;
+    font-size: 1.05rem;
+}
+main hr{
+    margin: 50px 80px;
+}
+.leftheader{
+    font-size: 1.5rem;
+}
+.leftheader img{
+    width: 60px;
+    
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0;
+}
+.firstsection div{
+    width: 45%;
+}
+.leftsection{
+    font-size: 3rem;
+}
+.leftsection button{
+    margin: 50px 0;
+}
+.leftsection .btn{
+    padding: 10px;
+    background-color: rgb(70, 70, 62);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.rightsection img{
+    width: 80%;
+}
+.namecolor{
+    color: bisque;
+}
+#typed{
+    color: bisque;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+.secondsection h1{
+    font-size: 1.5rem;
+}
+.secondsection .education{
+    background-color: black;
+    width: 80vw;
+    height: 2px;
+    margin: 25px 0;
+}
+.secondsection .education .container{
+    margin: 10px;
+}
+.container p{
+    margin: 10px 0;
+}
+.container ul{
+    margin: 10px 0;
+}
+.container ul li{
+    margin: 8px 0;
+}
+.hrline{
+    margin-top: 150px;
+}
+footer{
+    background-color: black;
+    height: 200px;
+
+}
+.footerlink{
+    display: flex;
+    margin: 25px 120px;
+    justify-content: space-evenly ;
+}
+.footerlink ul{
+    list-style: none;
+}
+.footerlast{
+    text-align: center;
+}

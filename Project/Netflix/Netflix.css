@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("img/background.jpg");
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+.left img{
+  height: 45px;
+}
+select{
+  position: absolute;
+  left:75% ;
+  width: 6dvw;
+  height: 4vh;
+}
+.btn{
+  background-color: red;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
+  margin-left: 550px;
+}
+section {
+  text-align: center;
+  position: absolute;
+  top:36%;
+  right: 21%;
+}
+section h1{
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+section h3{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+section h5{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+section .account input{
+  width: 25vw ;
+  height: 8vh;
+  border-radius: 5px;
+  background-color: hsla(0, 0%, 0%, 0.502);
+  color: #fff;
+}
+section .account button{
+  width: 15vw;
+  height: 8vh;
+  border-radius: 5px;
+  background-color: red;
+  color: #fff;
+}

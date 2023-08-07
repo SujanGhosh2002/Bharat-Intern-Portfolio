@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+    color: white;
+    font-family: cursive;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    background-color: black;
+    margin: 50px;
+    border-radius: 2rem;
+}
+.about img{
+    width: 350px;
+    border-radius: 5px;
+}
+.about address{
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+}
+.text{
+    margin: 50px;
+}
